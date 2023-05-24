@@ -1,4 +1,4 @@
-# PEPP-Database
+# PEPP2
 ## Dataset Description
 Detailed description of the datasets contained within the repository. Include information such as:
 
