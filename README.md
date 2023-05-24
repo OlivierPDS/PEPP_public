@@ -1,7 +1,7 @@
 # PEPP-Database
 ## Overview
 
-## PEPP2 (PEPP2/README.md)
+## [PEPP2](PEPP2/README.md)
 ## [PEPP10+](PEPP10+/README.md)
 
 ## Data Usage
