@@ -21,6 +21,7 @@ Guidelines for contributing to the data repository:
 - do not change variable names except to make it consistent across timepoints, or shorter than 8 characters (for Mplus users)
 - if you do change a variable name, change every occurence of that variable across the script you are working on
 - comment your code (provide readme, calculation, reference)
+- report any bug
 
 How to suggest changes or improvements
 The process for submitting issues or bug reports
