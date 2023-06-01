@@ -26,3 +26,7 @@ Handling missing values
 Data transformation or normalization
 Feature engineering
 Explain the rationale behind each preprocessing step and any specific considerations.
+
+## Data Transformation
+
+## Data Analyses
