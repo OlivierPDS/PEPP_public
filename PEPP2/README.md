@@ -1,28 +1,32 @@
 # PEPP2
-## Dataset Description
-Detailed description of the datasets contained within the repository. Include information such as:
+## Dataset overview
+PEPP2_df has been created by coliging data from 4 different sources:
 
-Data sources
-Data format(s)
-Variables and features
-Data size and volume
-Any additional metadata
-You can also include examples or snippets of the data to give users an idea of its structure.
+  name  |       id      |   years |  n | var |source|    author    |  version |format|                        description                         |
+--------|---------------|---------|----|-----|------|--------------|----------|------|------------------------------------------------------------|
+OG_df   |pin = 1-992    |2003-2020|764 |3770 |shared|Nicole Pawliuk|06/01/2020|.sav  |Subset of PEPP assessment protocol from baseline to month 24|
+CORS_df |pin = 1-992    |2003-2020|764 |233  |shared|Nicole Pawliuk|06/01/2020|.sav  |Baseline sociodemographics and circumstance of onset        |
+COG_df  |PEPP_ID = 1-850|2003-2018|1008|409  |Ydrive|CRISP lab     |16/09/2021|.xlsx |Neuropsy assesmment at month 3-6                            |
+CPZeq_df|pin = 1-769    |2003-2018|769 |61   |Ydrive|Michael Bodnar|16/09/2021|.xlsx |Chlorpromazine equivalent from baseline to month 24         |
 
 ## Data Collection
-Explanation of how the data was collected. Include details on:
 
-Data collection methods
-Instruments or tools used
-Timeframe and duration of data collection
-Any relevant ethical considerations or permissions obtained
-If the data is publicly available or has been previously published, provide appropriate references or links.
 
 ## Data Preprocessing
-Description of any preprocessing steps applied to the data. This may include:
+- selected variables of interest
+- renamed variables with long (> 8 characters) or inconsistant name across timepoints
+- recoded undefined missing values (77, 99) into NA
+- recoded categorical variables as factors
+- rounded numeric variables (2 decimals)
+- recoded categorical variables with unused or inconsistant levels across timepoints
+- restructured dataset
 
-Cleaning the data
-Handling missing values
-Data transformation or normalization
-Feature engineering
-Explain the rationale behind each preprocessing step and any specific considerations.
+## Data Transformation
+- computed total scores 
+- computed variables of interest (e.g., Sx remission, SUD
+- recoded categorical variables (collapsed levels into groups of interest)
+- computed individually-varying time of observation 
+
+## Data Analyses
+- missing data analyses
+
