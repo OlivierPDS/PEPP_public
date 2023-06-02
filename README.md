@@ -45,7 +45,7 @@ Instructions for contributing to the data repository:
 - only push to origin (main branch) the final/working version of your code
 - do not change variable names except to make it consistent across timepoints, or shorter than 8 characters (for Mplus users)
 - naming convention to define
-- if you do change a variable name, change every occurence of that variable across the script you are working on
+- if you do change variable name, change every occurence of the name across the script you are working on
 - comment your code (e.g, concise title, description, explenation, warnings, instructions, reference)
 - try using tydiverse or base R functions
 - describe your commits concisely
