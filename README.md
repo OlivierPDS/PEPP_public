@@ -23,10 +23,10 @@ Each time:
 - open github & sync/pull origin branch
 - load Rproject (i.e., PEPP2.Rproj or PEPP10.Rproj)
 
-## Usage 
+## Features 
 - Compute total score for PAS, SAPS, SANS, CDS, HAS, YMRS, SUMD across times-points
 - assumption diagnostic
-- descriptives stats
+- descriptive stats
 - missing data handeling
 
 Medium- to long-term additions:
@@ -47,9 +47,9 @@ Instructions for contributing to the data repository:
 - do not change variable names except to make it consistent across timepoints, or shorter than 8 characters (for Mplus users)
 - naming convention to define
 - if you do change variable name, change every occurence of the name across the script you are working on
-- comment your code (e.g, concise title, description, explenation, warnings, instructions, reference)
+- comment your code (e.g, informative title, description, explenation, warnings, instructions, reference)
 - try using tydiverse or base R functions
-- describe your commits concisely
+- describe your commits
 
 ### Discussion tab:
 - discuss ideas
