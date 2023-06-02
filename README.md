@@ -6,6 +6,7 @@
 - streamline basic analyses and results repports
 - share project-specific variables and analyses 
 - learn R language by examples
+- share documentation & ressources
 - promote good data management & coding practices
 - promote lab collaboration & efficiency
 
@@ -13,10 +14,9 @@
 ### [PEPP2](PEPP2/README.md)
 ### [PEPP10+](PEPP10+/README.md) (work in progress)
 
-## Installation
+## Setup
 One-time only setup:
 - download & install Rstudio
-- download & install GitHub desktop
 - fork or clone https://github.com/OlivierPDS/PEPP-Database.git
 
 Each time:
