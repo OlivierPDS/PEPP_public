@@ -30,12 +30,12 @@ Each time:
 - missing data handeling
 
 Medium- to long-term additions:
-- trajectory analyses (MplusAutomation)
+- trajectory analysis (MplusAutomation)
 - multiple implementation (mice)
 - multilevel modelling (lme4)
-- multiple regression (lm)
-- power/sample size analyses (pwr)
-- mediation analyses (lavaan)
+- multiple regressions (lm)
+- power/sample size analysis (pwr)
+- mediation analysis (lavaan)
 - PCA (laavan)
 
 ## How to contribute
