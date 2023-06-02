@@ -27,6 +27,3 @@ CPZeq_df|pin = 1-769    |2003-2018|769 |61   |Ydrive|Michael Bodnar|16/09/2021|.
 - recoded categorical variables (collapsed levels into groups of interest)
 - computed individually-varying time of observation 
 
-## Data Analyses
-- missing data analyses
-
