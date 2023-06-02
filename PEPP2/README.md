@@ -23,7 +23,7 @@ CPZeq_df|pin = 1-769    |2003-2018|769 |61   |Ydrive|Michael Bodnar|16/09/2021|.
 
 ## Data Transformation
 - computed total scores 
-- computed variables of interest (e.g., Sx remission, SUD
+- computed variables of interest
 - recoded categorical variables (collapsed levels into groups of interest)
 - computed individually-varying time of observation 
 
