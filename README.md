@@ -4,8 +4,8 @@
 - control version of dataset
 - Qc dataset and analyses
 - streamline basic analyses and results repports
-- learn coding by examples 
 - share project-specific variables and analyses 
+- learn R programming language by examples
 - promote lab collaboration & efficiency
 
 ## Dataset Information
@@ -14,13 +14,13 @@
 
 ## Installation
 One-time only setup:
-- download & instal Rstudio
-- download & instal GitHub desktop
+- download & install Rstudio
+- download & install GitHub desktop
 - fork or clone https://github.com/OlivierPDS/PEPP-Database.git
 
 Each time:
+- open github & sync/pull origin branch
 - load Rproject (i.e., PEPP2.Rproj or PEPP10.Rproj)
-- sync/pull origin branch
 
 ## Usage 
 - Compute total score for PAS, SAPS, SANS, CDS, HAS, YMRS, SUMD across times-points
@@ -47,11 +47,13 @@ Instructions for contributing to the data repository:
 - naming convention to define
 - if you do change a variable name, change every occurence of that variable across the script you are working on
 - comment your code (e.g, concise title, description, explenation, warnings, instructions, reference)
+- try using tydiverse or base R functions
 - describe your commits concisely
 
 ### Discussion tab:
-- discuss ideas 
+- discuss ideas
 - make request
 - ask questions / help 
-- report any bug, error 
+- share ressources & information
+- report any bug & error 
 
