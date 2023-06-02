@@ -3,7 +3,7 @@
 - standardize preprocessing & curation of dataset
 - control version of dataset
 - Qc dataset and analyses
-- streamline basic analyses and results repports
+- streamline basic analyses and result repports
 - share project-specific variables and analyses 
 - learn R language by examples
 - share documentation & ressources
