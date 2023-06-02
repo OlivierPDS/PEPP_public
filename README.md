@@ -3,7 +3,7 @@
 - standardize preprocessing & curation of dataset
 - control version of dataset
 - Qc dataset and analyses
-- streamline basic analyses 
+- streamline basic analyses and results repports
 - learn coding by examples 
 - share project-specific variables and analyses 
 - promote lab collaboration & efficiency
