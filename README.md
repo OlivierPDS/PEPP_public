@@ -6,6 +6,7 @@
 - streamline basic analyses and results repports
 - share project-specific variables and analyses 
 - learn R language by examples
+- promote good data management & coding practices
 - promote lab collaboration & efficiency
 
 ## Dataset Information
