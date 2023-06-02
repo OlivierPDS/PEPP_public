@@ -5,7 +5,7 @@
 - Qc dataset and analyses
 - streamline basic analyses and results repports
 - share project-specific variables and analyses 
-- learn R programming language by examples
+- learn R language by examples
 - promote lab collaboration & efficiency
 
 ## Dataset Information
