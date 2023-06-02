@@ -13,12 +13,14 @@
 ### [PEPP10+](PEPP10+/README.md) (work in progress)
 
 ## Installation
+One-time only setup:
 - download & instal Rstudio
 - download & instal GitHub desktop
 - fork or clone https://github.com/OlivierPDS/PEPP-Database.git
-- load Rproject (i.e., PEPP2.Rproj or PEPP10.Rproj)
 
-At each opening sync/pull origin branch
+Each time:
+- load Rproject (i.e., PEPP2.Rproj or PEPP10.Rproj)
+- sync/pull origin branch
 
 ## Usage 
 - Compute total score for PAS, SAPS, SANS, CDS, HAS, YMRS, SUMD across times-points
@@ -26,8 +28,7 @@ At each opening sync/pull origin branch
 - descriptives stats
 - missing data handeling
 
-
-add-on in medium- to long-term:
+Medium- to long-term additions:
 - trajectory analyses (MplusAutomation)
 - multiple implementation (mice)
 - multilevel modelling (lme4)
@@ -36,7 +37,7 @@ add-on in medium- to long-term:
 - mediation analyses (lavaan)
 - PCA (laavan)
 
-## Contributing
+## How to contribute
 Instructions for contributing to the data repository:
 - do not alter the master database in anyway
 - document any changes made to the PEPP2/PEPP10 datasets in the R script
