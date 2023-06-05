@@ -1,9 +1,9 @@
 # PEPP-Database
-## Description
+## Overview
 - standardize preprocessing & curation of dataset
 - control version of dataset
 - Qc dataset and analyses
-- streamline basic analyses and result repports
+- streamline basic analyses and result reports
 - share project-specific variables and analyses 
 - learn R language by examples
 - share documentation & ressources
@@ -24,17 +24,33 @@ Each time:
 - load Rproject (i.e., PEPP2.Rproj or PEPP10.Rproj)
 
 ## Features 
-- Compute total score for PAS, SAPS, SANS, CDS, HAS, YMRS, SUMD across times-points
-- assumption diagnostic
-- descriptive stats
-- missing data handeling
+### R 
+- save & load working session
+- read & write .sav & .xslx data
+- produce variables catalog
+- create vectors of interest
 
-Medium- to long-term additions:
+### Data preprocessing
+- add, rename, recode, reformat & relocate variables
+- subset dataset by project-specific inclusion/exclusion criteria
+- reshape dataset (i.e., wide to long) 
+
+### Data transformation
+- compute total scores across timepoints 
+- compute variables of interest
+- z-normalization & centering
+
+### Data analyses
+- missing data analysis
+- descriptive statistics
+
+#### Future features (short- to long-term):
 - trajectory analysis (MplusAutomation)
 - multiple implementation (mice)
 - multilevel modelling (lme4)
 - multiple regressions (lm)
 - power/sample size analysis (pwr)
+- assumption diagnostics (plots)
 - mediation analysis (lavaan)
 - PCA (laavan)
 
@@ -47,8 +63,8 @@ Instructions for contributing to the data repository:
 - do not change variable names except to make it consistent across timepoints, or shorter than 8 characters (for Mplus users)
 - naming convention to define
 - if you do change variable name, change every occurence of the name across the script you are working on
-- comment your code (e.g, informative title, description, explenation, warnings, instructions, reference)
-- try using tydiverse or base R functions
+- comment your code (e.g, informative title, description, explanation, warnings, instructions, reference)
+- try using tidyverse or base R functions
 - describe your commits
 
 ### Discussion tab:
