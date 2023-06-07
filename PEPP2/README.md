@@ -10,7 +10,7 @@ COG_df  |PEPP_ID = 1-850|2003-2018|1008|409  |Ydrive|CRISP lab     |16/09/2021|.
 CPZeq_df|pin = 1-769    |2003-2018|769 |61   |Ydrive|Michael Bodnar|16/09/2021|.xlsx |Chlorpromazine equivalent from baseline to month 24         |
 
 ## Data Collection
-
+![alt text]([Documentation/PEPP2_protocol.pdf](https://github.com/OlivierPDS/PEPP-Database/blob/d760fcf3ccddbce57a2f13c18949d3badac7df68/Documentation/PEPP2_protocol.pdf))
 
 ## Data Preprocessing
 - selected variables of interest (i.e., SD, clinical info, Dx, Funct, Sx, Cog, Rx)
@@ -23,8 +23,7 @@ CPZeq_df|pin = 1-769    |2003-2018|769 |61   |Ydrive|Michael Bodnar|16/09/2021|.
 
 ## Data Transformation
 - computed total scores (i.e., PAS, SAPS, SANS, CDS, HAS, YMRS & SUMD)
-- compute variables of interest (e.g., antecedent, remission, recovery, SUD) 
+- compute variables of interest (e.g., antecedent, SUD, remission, recovery) 
 - recoded categorical variables (collapsed levels into groups of interest) (e.g., SD)
 - computed individually-varying time of observation 
-- 
 
