@@ -13,17 +13,18 @@ CPZeq_df|pin = 1-769    |2003-2018|769 |61   |Ydrive|Michael Bodnar|16/09/2021|.
 
 
 ## Data Preprocessing
-- selected variables of interest
-- renamed variables with long (> 8 characters) or inconsistant name across timepoints
-- recoded undefined missing values (77, 99) into NA
+- selected variables of interest (i.e., SD, clinical info, Dx, Funct, Sx, Cog, Rx)
+- renamed variables with long (i.e., > 8 characters) or inconsistant names across timepoints
+- recoded undefined missing values (i.e., 77, 99) into NA
 - recoded categorical variables as factors
 - rounded numeric variables (2 decimals)
 - recoded categorical variables with unused or inconsistant levels across timepoints
 - restructured dataset
 
 ## Data Transformation
-- computed total scores 
-- computed variables of interest
-- recoded categorical variables (collapsed levels into groups of interest)
+- computed total scores (i.e., PAS, SAPS, SANS, CDS, HAS, YMRS & SUMD)
+- compute variables of interest (e.g., antecedent, remission, recovery, SUD) 
+- recoded categorical variables (collapsed levels into groups of interest) (e.g., SD)
 - computed individually-varying time of observation 
+- 
 
