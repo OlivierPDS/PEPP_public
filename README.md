@@ -2,6 +2,7 @@
 ## Overview
 - standardize preprocessing & curation of dataset
 - control version of dataset
+- work simultaneously on script and dataset
 - Qc dataset and analyses
 - streamline basic analyses and result reports
 - share project-specific variables and analyses 
@@ -9,6 +10,7 @@
 - share documentation & ressources
 - promote good data management & coding practices
 - promote lab collaboration & efficiency
+- promote open science
 
 ## Dataset Information
 ### [PEPP2](PEPP2/README.md)
