@@ -1,1 +1,1 @@
-The tidyverse style guide
+![The tidyverse style guide](https://style.tidyverse.org/index.html)
