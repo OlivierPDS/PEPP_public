@@ -626,6 +626,3 @@ library(flextable)
 write_sav(PEPP2_df, glue(getwd(), 'Data', 'SAV', 'PEPP2_{today()}.sav', .sep = '/')) #SAV file
 save.image(glue(getwd(), 'Rproj', 'PEPP2_{today()}.RData', .sep = '/')) #Environment
 
-
-
-
